@@ -1,3 +1,10 @@
-<p><img src="https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png" alt="Start HTML Template"></p>
-<p>Clone:</p>
-<pre>git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore readme.md .git</pre>
+- 👋 Hi, I’m @Dmitriy-Pozhidaev
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Dmitriy-Pozhidaev/Dmitriy-Pozhidaev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
