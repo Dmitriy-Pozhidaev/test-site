@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Дмитрий Пожидаев / Вёрстка - Дизайн сайтов</title>
+	<meta name="description" content="веб-дизайнер / верстальщик / дизайнер">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.svg">
+	<meta property="og:image" content="images/preview.png">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
+
+	<script src="js/common.js" defer></script>
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="header-links">
+						<li class="active">Home</li>
+						<li><a href="#works" class="header-link">Works</a></li>
+						<li>Services</li>
+						<li>About Me</li>
+					</ul>
+				</div>
+				<div class="col-lg-12 info-content">
+					<h1 class="name">Dmitriy Pozhidaev</h1>
+					<h3 class="prof">web developer <span>x</span> ui/ux designer</h3>
+					<div class="header-btns">
+						<a class="btn hire" id="callback-contact">hire me</a>
+
+						<div class="col-md-9 modal-contact modal-popup">
+							<div class="modal-sub__content modal-contact__content">
+								<h1 class="contact-title">Send me a request!</h1>
+		
+								<form action="mail.php" method="post">
+									<p>Adress e-mail</p>
+									<input type="email" name="email" placeholder="Adress e-mail" class="input-mail" required>
+									<p>Request</p>
+									<textarea cols="32" id="request" name="request" rows="5" class="input-comment" placeholder="Type your request..."></textarea>
+									<button class="btnContact" type="submit">
+										<div class="send">Send</div>
+									</button>
+		
+									<div class="status"></div>
+								</form>
+		
+							</div>
+						</div>
+
+						<a class="btn" href="">see resume</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="services" id="services">
+		<div class="container">
+			<div class="row">
+				<h1 class="category">My Services</h1>
+				<div class="col-lg-5">
+					<h2 class="serv-title">Best solution to boost your project and business</h2>
+					<p class="serv-text">Are you a professional who needs an attractive website for your business or service? Does your current website looks like it "old-fashioned"? Is it not mobile responsive? It doesn't have a modern look and optimal user experience across various devices, and browsers?<br><br><span>Well, you’re in the right place.</span></p>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3">
+					<div class="serv-card">
+						<img src="/images/ui-icon.svg" alt="" class="serv-icon">
+						<h2 class="card-title">ui/ux design</h2>
+						<p class="card-text">Good communication, details in the code and verbose documentation. I guaranteed free session until you can run my code on your system.</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="serv-card">
+						<img src="/images/dev-icon.svg" alt="" class="serv-icon">
+						<h2 class="card-title">web development</h2>
+						<p class="card-text">I look at every UI design project as a process in solving a problem. I am considering all the aspects until the UI design is “work”.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="works" id="works">
+		<div class="container">
+			<div class="row">
+				<h1 class="category">My Works</h1>
+				<div class="col-lg-4">
+					<div class="card-work">
+						<img src="/images/work011.png" alt="" class="work-img">
+						<div class="work-description">
+							<h1 class="work-name">Work description</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card-work">
+						<img src="/images/work011.png" alt="" class="work-img">
+						<div class="work-description">
+							<h1 class="work-name">Work description</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card-work">
+						<img src="/images/work011.png" alt="" class="work-img">
+						<div class="work-description">
+							<h1 class="work-name">Work description</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card-work">
+						<img src="/images/work011.png" alt="" class="work-img">
+						<div class="work-description">
+							<h1 class="work-name">Work description</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card-work">
+						<img src="/images/work011.png" alt="" class="work-img">
+						<div class="work-description">
+							<h1 class="work-name">Work description</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card-work">
+						<img src="/images/work011.png" alt="" class="work-img">
+						<div class="work-description">
+							<h1 class="work-name">Work description</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 check-behance">
+					<div class="works-desc">Со всеми работами так же можно ознакомиться на платформе Behance</div>
+					<a href="" class="btn behance">See More</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="copyright">©️ Dmitriy Pozhidaev</p>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
