@@ -1,0 +1,171 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+	.social-links, .email {
+		font-size: 20px;
+	}
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+	
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+	.category {
+		margin-bottom: 20px;
+		font-size: 50px;
+	}
+
+	.header-links {
+		font-size: 15px;
+	}
+	.header-links li {
+		margin-right: 25px;
+	}
+
+	.info-content {
+		height: 100vh;
+	}
+	.name {
+		font-size: 55px;
+		line-height: 60px;
+	}
+	.prof {
+		font-size: 17px;
+		opacity: 0.7;
+		margin-bottom: 20px;
+	}
+	.prof span {
+		font-size: 10px;
+	}
+	.btn {
+		padding: 15px 35px;
+		font-size: 15px;
+	}
+
+	.serv-title {
+		font-size: 22px;
+	}
+	.serv-card {
+		margin: 50px 0;
+	}
+
+	.work-name {
+		font-size: 20px;
+	}
+
+	.check-behance {
+		margin-bottom: 20px;
+	}
+	.behance {
+		display: block;
+	}
+
+	.copyright {
+		margin-bottom: 20px;
+		font-weight: 100;
+	}
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+	.category {
+		margin-bottom: 20px;
+		font-size: 50px;
+	}
+
+	.header-links {
+		font-size: 15px;
+	}
+	.header-links li {
+		margin-right: 25px;
+	}
+
+	.info-content {
+		height: 100vh;
+	}
+	.name {
+		font-size: 55px;
+		line-height: 60px;
+	}
+	.prof {
+		font-size: 17px;
+		opacity: 0.7;
+		margin-bottom: 20px;
+	}
+	.prof span {
+		font-size: 10px;
+	}
+	.btn {
+		padding: 15px 35px;
+		font-size: 15px;
+	}
+
+	.serv-title {
+		font-size: 22px;
+	}
+	.serv-card {
+		margin: 50px 0;
+	}
+
+	.work-name {
+		font-size: 20px;
+	}
+
+	.check-behance {
+		margin-bottom: 20px;
+	}
+	.behance {
+		display: block;
+	}
+
+	.copyright {
+		margin-bottom: 20px;
+		font-weight: 100;
+	}
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
